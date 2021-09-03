@@ -1,0 +1,10 @@
+name = input("What is your name? ")
+age = input("What is your age? ")
+
+age = int(age)
+
+print("Hello {}, your age is {}".format(name, age))
+if age >= 21:
+    print("You are over 21, you can biuy alcohol")
+else:
+    print("You are too young to buy alcohol")
